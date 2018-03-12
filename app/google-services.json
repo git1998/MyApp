@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "342573360122",
+    "firebase_url": "https://flychats-cb840.firebaseio.com",
+    "project_id": "flychats-cb840",
+    "storage_bucket": "flychats-cb840.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:342573360122:android:cc971fea5072e247",
+        "android_client_info": {
+          "package_name": "ltd.akhbod.flychats"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "342573360122-aar5si26m9kmou1qhbnj2qjs3a5j71vb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ltd.akhbod.flychats",
+            "certificate_hash": "4e8a42f8f7ad6ecee26626179a8e228657bdf383"
+          }
+        },
+        {
+          "client_id": "342573360122-mn3k94bmb00tgn5it0uefms99jqi88r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAIoj3vHfsurY1uDevkysFVbQQhmVkg9Mk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "342573360122-mn3k94bmb00tgn5it0uefms99jqi88r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

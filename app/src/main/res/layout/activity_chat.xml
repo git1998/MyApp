@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="ltd.akhbod.flychats.ChatActivity">
+
+    <include
+        android:id="@+id/chat_tooolbar"
+        layout="@layout/chat_appbar_layout"></include>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="0dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        android:id="@+id/linearLayout">
+
+
+        <ImageButton
+            android:id="@+id/chat_addbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="8dp"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            app:srcCompat="@drawable/add" />
+
+        <EditText
+            android:id="@+id/chat_massageimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="write a massage"
+            android:inputType="textMultiLine"
+            android:text=" "
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+        <ImageButton
+            android:id="@+id/chat_sendbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="8dp"
+            android:layout_toEndOf="@+id/textView5"
+            android:layout_weight="1"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            app:srcCompat="@drawable/send" />
+
+    </LinearLayout>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/massage_swipelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/chat_tooolbar"
+        android:layout_alignParentStart="true">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/massage_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout"
+        android:layout_below="@+id/chat_tooolbar"
+        android:layout_alignParentStart="true"></android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
