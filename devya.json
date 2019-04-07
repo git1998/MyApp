@@ -28,4 +28,34 @@
     },
     "timestamp": "February 12, 2016"
   }
+  
+  {
+    "name": "New York",
+    "url": {
+      "small": "https://jsonformatter.org/img/tom-cruise.jpg",
+      "medium": "https://jsonformatter.org/img/tom-cruise.jpg",
+      "large": "https://jsonformatter.org/img/tom-cruise.jpg"
+    },
+    "timestamp": "February 12, 2016"
+  },
+  
+  {
+    "name": "New York",
+    "url": {
+      "small": "https://jsonformatter.org/img/Maria-Sharapova.jpg",
+      "medium": "https://jsonformatter.org/img/Maria-Sharapova.jpg",
+      "large": "https://jsonformatter.org/img/Maria-Sharapova.jpg"
+    },
+    "timestamp": "February 12, 2016"
+  },
+  
+  {
+    "name": "New York",
+    "url": {
+      "small": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg",
+      "medium": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg",
+      "large": "https://jsonformatter.org/img/Robert-Downey-Jr.jpg"
+    },
+    "timestamp": "February 12, 2016"
+  }
 ]
